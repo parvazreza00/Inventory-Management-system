@@ -105,7 +105,7 @@ Route::controller(PurchaseController::class)->group(function() {
     
 });
 
-//purchse  all routes
+//Invoice  all routes
 Route::controller(InvoiceController::class)->group(function() {
     Route::get('/invoice/all', 'InvoiceAll')->name('invoice.all');
     
